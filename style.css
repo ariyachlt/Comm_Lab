@@ -1,0 +1,71 @@
+#top_bar {
+    background-color: #7B7B7B;
+    position: absolute;
+    border-style: none!important;
+    width: 1200px;
+    height: 50px;
+}
+
+#home_button {
+    color: lightgrey;
+    font-size: 1.2em;
+    position: absolute;
+    top: 50px;
+    left: 13px;
+    text-decoration: none;
+}
+
+#projects_button {
+    color: lightgrey;
+    font-size: 1.2em;
+    position: absolute;
+    top: 80px;
+    left: 13px;
+    text-decoration: none;
+}
+
+#menu_icon {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 40px;
+}
+
+h1 {
+    color: #BE9342;
+    position: absolute;
+    top: 180px;
+    left: 835px;
+    width: 400px;
+}
+
+#description {
+    color: #7B7B7B;
+    font-size: 1.4em;
+    position: absolute;
+    top: 280px;
+    left: 698px;
+    width: 630px;
+    height: 340px;
+    padding:5px;
+    overflow: auto;
+    text-align: justify;
+}
+
+#mdlr_image {
+    position: absolute;
+    top: 20px;
+    left: 630px;
+    width: 725px;
+}
+
+#mdlr_video {
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    /* The original video is 402x710px. It has been multiplied by 0.84 (84% of original size)*/
+    width: 337.58px;
+    height: 604.8px;
+    border-radius: 15px;
+}
