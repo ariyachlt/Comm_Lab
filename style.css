@@ -19,7 +19,7 @@
 
 /* class to give attributes to the division comtaining the home and project buttons */
 .header_bar div {
-    display: none;                 /* will be used by js file to toggle display on and off when the hamburger menu is pressed */
+    display: none;                 /* will be used by js file to toggle display on and off when the hamburger menu is pressed (initialized with "none")*/
 }
 
 /* class to give attributes to the home and project buttons */
