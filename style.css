@@ -32,8 +32,6 @@
 /* class to give attributes to the division containing the videos and video description */
 .vid_container {
     position: relative;
-    top: 90px;
-    left: 90px;
 }
 
 /* class to give attributs to the 30mff video */
