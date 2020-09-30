@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     display: flex;                /* to expand items to fill free space */  
-    z-index: 1;                   /* to make sure it stays on top */  
+    z-index: 2;                   /* to make sure it stays on top */  
 }
 
 /* class to give attributes to the hamburger menu */
