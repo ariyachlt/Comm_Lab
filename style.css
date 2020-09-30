@@ -1,71 +1,72 @@
-#top_bar {
-    background-color: #7B7B7B;
-    position: absolute;
-    border-style: none!important;
-    width: 1200px;
-    height: 50px;
+
+.header_bar {
+    background-color: #f7e7ce;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
 }
 
-#home_button {
-    color: lightgrey;
+.header_bar a {
     font-size: 1.2em;
-    position: absolute;
-    top: 50px;
-    left: 13px;
     text-decoration: none;
+    padding: 20px 20px;
 }
 
-#projects_button {
-    color: lightgrey;
-    font-size: 1.2em;
-    position: absolute;
-    top: 80px;
-    left: 13px;
+.header_bar img { 
+    height: 60px;
     text-decoration: none;
+    padding: 0px 20px;
 }
 
-#menu_icon {
+.mdlr_image {
     position: absolute;
-    top: 7px;
-    left: 10px;
-    width: 40px;
+    top: 100px;
+    left: 765px;
+    width: 610px;
 }
 
-h1 {
-    color: #BE9342;
+.mdlr_video1 {
     position: absolute;
-    top: 180px;
-    left: 835px;
-    width: 400px;
+    top: 115px;
+    left: 80px;
+    /* The original video is 402x720px. It has been multiplied by 0.5 (50% of original size)*/
+    width: 201px;
+    height: 360px;
+    filter:grayscale(100%);
 }
 
-#description {
+.mdlr_video2 {
+    position: absolute;
+    top: 115px;
+    left: 281px;
+    width: 201px;
+    height: 360px;
+    filter:grayscale(25%);
+}
+
+.mdlr_video3 {
+    position: absolute;
+    top: 115px;
+    left: 482px;
+    width: 201px;
+    height: 360px;
+    filter:grayscale(100%);
+}
+
+.description {
     color: #7B7B7B;
     font-size: 1.4em;
     position: absolute;
-    top: 280px;
-    left: 698px;
-    width: 630px;
-    height: 340px;
-    padding:5px;
+    top: 507px;
+    left: 80px;
+    width: 595px;
+    height: 185px;
+    padding: 5px;
     overflow: auto;
     text-align: justify;
-}
-
-#mdlr_image {
-    position: absolute;
-    top: 20px;
-    left: 630px;
-    width: 725px;
-}
-
-#mdlr_video {
-    background-color: black;
-    position: absolute;
-    top: 80px;
-    left: 200px;
-    /* The original video is 402x710px. It has been multiplied by 0.84 (84% of original size)*/
-    width: 337.58px;
-    height: 604.8px;
-    border-radius: 15px;
 }
