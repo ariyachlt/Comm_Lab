@@ -15,7 +15,7 @@ Communications Lab is a production based course that surveys various technologie
 ## 30MFF Documentation
 #### Project Name: "30MFF: This is the way"
 #### Project Description:
-For this assignment, I had to create a webpage to showcase the video my group made for the 30MFF in-class project.
+For this assignment, I had to create a webpage to showcase the video my group made for the 30MFF in-class project. The project is a video that was filmed in 30 minutes, and edited in 30 minutes. After spending some time brainstorming, our group decided to create a video of Baby Yoda using the force to solve a Rubik's cube. 
 
 #### Process
 
