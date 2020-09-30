@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <!-- Setting the title of the webpage to "30MFF" for the project and referencing the stylesheet -->
     <head>
         <title>30MFF</title>
         <link rel="stylesheet" href="style.css">
     </head>
     
     <body style="background-color: #fff8e7;">
+        <!-- Creating a header tag for the header/navigation bar -->
         <header class="header_bar">
+            <!-- Creating the hamburger icon, and home and project buttons (links) in a div so it can be toggled on/off -->
             <img id="imgClickAndChange" src="https://i.imgur.com/vVVlQlT.png"/>
             <div id="display_menu">
                 <a id='home_button' href='index.html'>home</a>
@@ -14,17 +17,19 @@
             </div>
         </header>
 
+        <!-- Creating an img tag to embed the Baby Yoda Rubiks image -->
         <img class="mdlr_image" src="baby_yoda_title.png"/>
 
+        <!-- Creating a div tag to add the story -->
         <div class="description">
             Baby Yoda may appear cute but he may be even more powerful than Yoda in some key ways. We've seen him use Force Choke like Darth Vader, 
             heal beings with the Force, and lift objects in The Mandalorian. Today, Baby Yoda tackles a new challenge – the Rubik's cube. Observe as Baby Yoda 
             takes his time to examine the cube. Most of us would have picked it up right away and begin to attempt to solve it. But Baby Yoda is patient. He takes 
             his time to study the placement of each color. Once he has the algorithm in his mind, he uses the Force to solve it in one swift movement. He still 
             has a lot to learn but we have more to fear. Baby Yoda may appear cute but he may be even more powerful than Yoda in some key ways.
-
         </div>
 
+        <!-- Creating vid tags to embed the videos (two will be muted and autoplayed, the one in the middle is the main video) -->
         <video class="mdlr_video1" playsinline autoplay muted loop>
             <source src="ThisIsTheWay.mp4" type="video/mp4">
         </video>
@@ -35,6 +40,7 @@
             <source src="ThisIsTheWay.mp4" type="video/mp4">
         </video>
 
+        <!-- Referencing the javascript -->
         <script src="jscript.js"></script>
     </body>
 </html>
