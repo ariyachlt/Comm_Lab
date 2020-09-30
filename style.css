@@ -11,7 +11,7 @@
     z-index: 1;                   /* to make sure it stays on top of everything else*/  
 }
 
-/* class to postion and size the hamburger menu */
+/* class to position and size the hamburger menu */
 .header_bar img { 
     height: 60px;
     padding: 0px 20px;
@@ -29,17 +29,16 @@
     padding: 20px 20px;
 }
 
-/* class to position and size the baby yoda image */
-.mdlr_image {
-    position: fixed;
-    top: 100px;
-    left: 765px;
-    width: 610px;
+/* class to give attributes to the division containing the videos and video description */
+.vid_container {
+    position: relative;
+    top: 90px;
+    left: 90px;
 }
 
 /* class to give attributs to the 30mff video */
 .mdlr_video1 {
-    position: fixed;
+    position: absolute;
     top: 140px;
     left: 90px;
     /* The original video is 402x720px. It has been multiplied by 0.5 (50% of original size)*/
@@ -49,7 +48,7 @@
 }
 
 .mdlr_video2 {
-    position: fixed;
+    position: absolute;
     top: 140px;
     left: 291px;
     width: 201px;
@@ -58,7 +57,7 @@
 }
 
 .mdlr_video3 {
-    position: fixed;
+    position: absolute;
     top: 140px;
     left: 492px;
     width: 201px;
@@ -69,7 +68,7 @@
 .description {
     color: rgb(14, 14, 14);
     font-size: 1.2em;
-    position: fixed;
+    position: absolute;
     top: 527px;
     left: 90px;
     width: 595px;
@@ -77,4 +76,12 @@
     padding: 5px;
     overflow: auto;
     text-align: justify;
+}
+
+/* class to position and size the baby yoda image */
+.mdlr_image {
+    position: relative;
+    top: 100px;
+    left: 765px;
+    width: 610px;
 }
