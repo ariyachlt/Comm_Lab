@@ -11,3 +11,12 @@ Communications Lab is a production based course that surveys various technologie
 - Learn the fundamentals of client-side web development, specifically HTML, CSS and Javascript
 - Gain ability to design and develop web pages that communicate a story by leveraging media and web-based interactions
 - Gain experience collaborating with others in both creative and technical processes
+
+## 30MFF Documentation
+#### Project Name: "30MFF: This is the way"
+#### Project Description:
+For this assignment, I had to create a webpage to showcase the video my group made for the 30MFF in-class project.
+
+#### Process
+
+#### Reflection/Evaluation
