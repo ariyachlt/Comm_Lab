@@ -1,39 +1,43 @@
-
+/* class to give attributes to the header */
 .header_bar {
     background-color: #f7e7ce;
-    width: 100%;
+    width: 100%;                  /* so it spans the whole page */  
     height: 60px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    display: flex;
+    display: flex;                /* to expand items to fill free space */  
+    z-index: 1;                   /* to make sure it stays on top */  
 }
 
+/* class to give attributes to the hamburger menu */
 .header_bar img { 
     height: 60px;
     padding: 0px 20px;
 }
 
+/* class to give attributes to the division comtaining the home and project buttons */
 .header_bar div {
-    display: none;
+    display: none;                 /* will be used by js file to toggle display on and off when the hamburger menu is pressed */
 }
 
+/* class to give attributes to the home and project buttons */
 .header_bar a {
     font-size: 1.2em;
-    text-decoration: none;
+    text-decoration: none;         /* to remove the line under the link */
     padding: 20px 20px;
 }
 
 .mdlr_image {
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: 765px;
     width: 610px;
 }
 
 .mdlr_video1 {
-    position: absolute;
+    position: fixed;
     top: 140px;
     left: 90px;
     /* The original video is 402x720px. It has been multiplied by 0.5 (50% of original size)*/
@@ -43,7 +47,7 @@
 }
 
 .mdlr_video2 {
-    position: absolute;
+    position: fixed;
     top: 140px;
     left: 291px;
     width: 201px;
@@ -52,7 +56,7 @@
 }
 
 .mdlr_video3 {
-    position: absolute;
+    position: fixed;
     top: 140px;
     left: 492px;
     width: 201px;
@@ -61,9 +65,9 @@
 }
 
 .description {
-    color: black;
+    color: rgb(14, 14, 14);
     font-size: 1.2em;
-    position: absolute;
+    position: fixed;
     top: 527px;
     left: 90px;
     width: 595px;
@@ -72,5 +76,3 @@
     overflow: auto;
     text-align: justify;
 }
-
-/* #7B7B7B */
