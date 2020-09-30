@@ -8,10 +8,10 @@
     left: 0;
     right: 0;
     display: flex;                /* to expand items to fill free space */  
-    z-index: 2;                   /* to make sure it stays on top */  
+    z-index: 1;                   /* to make sure it stays on top of everything else*/  
 }
 
-/* class to give attributes to the hamburger menu */
+/* class to postion and size the hamburger menu */
 .header_bar img { 
     height: 60px;
     padding: 0px 20px;
@@ -29,6 +29,7 @@
     padding: 20px 20px;
 }
 
+/* class to position and size the baby yoda image */
 .mdlr_image {
     position: fixed;
     top: 100px;
@@ -36,6 +37,7 @@
     width: 610px;
 }
 
+/* class to give attributs to the 30mff video */
 .mdlr_video1 {
     position: fixed;
     top: 140px;
@@ -43,7 +45,7 @@
     /* The original video is 402x720px. It has been multiplied by 0.5 (50% of original size)*/
     width: 201px;
     height: 360px;
-    filter:grayscale(100%);
+    filter:grayscale(100%);         /* to add a grayscale filter */
 }
 
 .mdlr_video2 {
@@ -52,7 +54,7 @@
     left: 291px;
     width: 201px;
     height: 360px;
-    filter:grayscale(25%);
+    filter:grayscale(25%);         /* to add a grayscale filter but just very slightly (fits better with the color theme) */
 }
 
 .mdlr_video3 {
@@ -61,7 +63,7 @@
     left: 492px;
     width: 201px;
     height: 360px;
-    filter:grayscale(100%);
+    filter:grayscale(100%);         /* to add a grayscale filter */
 }
 
 .description {
