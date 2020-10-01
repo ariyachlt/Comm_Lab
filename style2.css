@@ -2,7 +2,7 @@
 .header_bar {
     background-color: #f7e7ce;
     width: 100%;                  /* so it spans the whole page */  
-    height: 60px;
+    height: 7.6%;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,8 +13,8 @@
 
 /* class to position and size the hamburger menu */
 .header_bar img { 
-    height: 60px;
-    padding: 0px 20px;
+    height: 100%;
+    padding: 0% 1%;
 }
 
 /* class to give attributes to the division comtaining the home and project buttons */
@@ -24,63 +24,62 @@
 
 /* class to give attributes to the home and project buttons */
 .header_bar a {
-    font-size: 1.2em;
+    font-size: 1.3vw;
     text-decoration: none;         /* to remove the line under the link */
-    padding: 20px 20px;
+    padding: 15% 15%;
 }
 
 /* class to give attributes to the division containing the videos and video description */
 .vid_container {
-    position: relative;
+    position: fixed;
+    top: 18%;
+    left: 6.2%;
+    width: 43%;
+    height: 75%
 }
 
 /* class to give attributes to the 30mff video */
 .mdlr_video1 {
-    position: absolute;
-    top: 140px;
-    left: 90px;
+    position: relative;
     /* The original video is 402x720px. It has been multiplied by 0.5 (50% of original size)*/
-    width: 201px;
-    height: 360px;
-    filter:grayscale(100%);         /* to add a grayscale filter */
+    float: left;
+    width: 32.9%;
+    filter: grayscale(100%);         /* to add a grayscale filter */
 }
 
 .mdlr_video2 {
-    position: absolute;
-    top: 140px;
-    left: 291px;
-    width: 201px;
-    height: 360px;
+    position: relative;
+    float: left;
+    width: 32.9%;
     filter:grayscale(25%);         /* to add a grayscale filter but just very slightly (fits better with the color theme) */
 }
 
 .mdlr_video3 {
-    position: absolute;
-    top: 140px;
-    left: 492px;
-    width: 201px;
-    height: 360px;
+    position: relative;
+    float: left;
+    width: 32.9%;
     filter:grayscale(100%);         /* to add a grayscale filter */
 }
 
 /* class to give attributes to the description box */
 .description {
     color: rgb(14, 14, 14);
-    font-size: 1.2em;
-    position: absolute;
-    top: 527px;
-    left: 90px;
-    width: 595px;
-    height: 140px;
-    padding: 5px;
+    font-size: 1.3vw;
+    position: relative;
+    float: bottom;
+    top: 5%;
+    left: 1%;
+    width: 96%;
+    height: 25%;
     overflow: auto;
     text-align: justify;
 }
 
 /* class to position and size the baby yoda image */
 .mdlr_image {
-    position: relative;
-    top: 100px;
-    left: 765px;
-    width: 610px;
+    min-width: 500px;
+    position: fixed;
+    top: 14%;
+    left: 54%;
+    width: 42%;
 }
